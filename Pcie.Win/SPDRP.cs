@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Pcie.Win
+{
+	public enum SPDRP : uint
+	{
+		DEVICEDESC = 0x00,
+		HARDWAREID = 0x01,
+		COMPATIBLEIDS = 0x02,
+		NTDEVICEPATHS = 0x03,
+		SERVICE = 0x04,
+		CONFIGURATION = 0x05,
+		CONFIGURATIONVECTOR = 0x06,
+		CLASS = 0x07,
+		CLASSGUID = 0x08,
+		DRIVER = 0x09,
+		CONFIGFLAGS = 0x0A,
+		MFG = 0x0B,
+		FRIENDLYNAME = 0x0C,
+		LOCATION_INFORMATION = 0x0D,
+		PHYSICAL_DEVICE_OBJECT_NAME = 0x0E,
+		CAPABILITIES = 0x0F,
+		UI_NUMBER = 0x10,
+		UPPERFILTERS = 0x11,
+		LOWERFILTERS = 0x12,
+		MAXIMUM_PROPERTY = 0x13,
+	}
+}
